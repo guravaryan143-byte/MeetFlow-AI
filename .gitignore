@@ -1,0 +1,66 @@
+# Environment files and secrets
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa*
+id_ed25519*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local databases, uploads, and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.dump
+*.sql.gz
+*.backup
+*.bak
+uploads/
+
+# JavaScript, build, and test output
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+.vitest/
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Generated handoff artifact
+docs/PROJECT_HANDOFF.pdf
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.history/
+.DS_Store
+Thumbs.db
+Desktop.ini
